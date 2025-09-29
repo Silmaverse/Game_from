@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+/* .......common css start */
 body{
     margin: 0px;
     padding: 0px;
@@ -15,12 +15,18 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0px;
 }
 
+/* .......common css end */
+
+/* ...from box start */
+
 .box{
     
     background-color: #FFFFFF;
     border-radius: 16px;
     padding: 40px 40px;
 }
+
+/* from heading css start */
 
 .box h2{
     font-size: 24px;
@@ -40,6 +46,9 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 5px;
     margin-bottom: 30px;
 }
+/* from heading css end */
+
+/* from label css start */
 
 .box .name label, .box .email label
 ,.box .Gender label
@@ -52,6 +61,11 @@ h1,h2,h3,h4,h5,h6,p{
     color: #07070C;
    
 }
+
+/* from label css end */
+
+/* from inputdiv css start */
+
 .box .name  .inputName, .box .email .EmailName
 ,.box .Gender .genderChoice ,.box .password .passwordField ,.box .ConfirmPassword .confrimPasswordfield {
 
@@ -66,6 +80,10 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 20px;
 }
 
+/* from inputdiv css end */
+
+/* from input css start */
+
 .box .name  input, .box .email input
 ,.box .Gender .genderChoice .Genderselect ,.box .password .passwordField  input ,.box .ConfirmPassword .confrimPasswordfield  input {
     font-size: 14px;
@@ -78,12 +96,10 @@ h1,h2,h3,h4,h5,h6,p{
 
 }
 
-/* .box .Gender .genderChoice .Genderselect option{
-    background-color: white !important;
-    width: 100% !important;
-    border: none  !important;
-    margin-top: 10px !important;
-} */
+/* from input css start */
+
+
+/* icon css start */ 
 
 .box .name .inputName .profile,
 .box .email .EmailName .email ,.box .password .passwordField,.ConfirmPassword  .password{
@@ -92,6 +108,29 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 16px;
 
 }
+/* icon css start */
+
+/* ---button css start */
+
+.box button{
+    width:400px;
+    border-radius: 8px;
+    background-color: #7364DB;
+    border: none;
+    padding: 14px 150px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+
+  
+}
+/* ---button css start */
+
+/* from box end */
+
+
+/* ---custom select css start */
 
 select ,::picker(select){
 
@@ -121,17 +160,5 @@ option::checkmark {
 option:checked{
     background-color:#7364DB;
 }
+/* ---custom select css end */
 
-.box button{
-    width:400px;
-    border-radius: 8px;
-    background-color: #7364DB;
-    border: none;
-    padding: 14px 150px;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    color: #FFFFFF;
-
-  
-}
