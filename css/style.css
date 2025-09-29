@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EDF2;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 40px 40px;
+}
+
+.box h2{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #07070C;
+
+}
+
+.box p{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #7E7E8F;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.box .name label, .box .email label
+,.box .Gender label
+,.box .password label
+,.box .ConfirmPassword label{
+
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #07070C;
+   
+}
+.box .name  .inputName, .box .email .EmailName
+,.box .Gender .genderChoice ,.box .password .passwordField ,.box .ConfirmPassword .confrimPasswordfield {
+
+    width: 360px;
+    padding: 13px 16px;
+    border-radius: 8px;
+    border: 1px solid #E8EDF2;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box .name  input, .box .email input
+,.box .Gender .genderChoice .Genderselect ,.box .password .passwordField  input ,.box .ConfirmPassword .confrimPasswordfield  input {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    color: #C6CBD9;
+    border: none;
+    outline: none;
+    width: 100%;
+
+}
+
+/* .box .Gender .genderChoice .Genderselect option{
+    background-color: white !important;
+    width: 100% !important;
+    border: none  !important;
+    margin-top: 10px !important;
+} */
+
+.box .name .inputName .profile,
+.box .email .EmailName .email ,.box .password .passwordField,.ConfirmPassword  .password{
+
+    color: #9A9AAF;
+    font-size: 16px;
+
+}
+
+select ,::picker(select){
+
+    appearance:base-select;
+    border: none;
+}
+selectedcontent ,option{
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    color: #07070C;
+    display: flex;
+    gap: 5px;
+    
+}
+select ,option{
+    border: none;
+}
+select:active,  select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+option::checkmark {
+    display: none !important;
+}
+
+option:checked{
+    background-color:#7364DB;
+}
+
+.box button{
+    width:400px;
+    border-radius: 8px;
+    background-color: #7364DB;
+    border: none;
+    padding: 14px 150px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+
+  
+}

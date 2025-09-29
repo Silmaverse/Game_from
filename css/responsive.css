@@ -1,0 +1,10 @@
+@media (min-width:0px) and (max-width:575.98px){
+    .box .name .inputName, .box .email .EmailName, .box .Gender .genderChoice, .box .password .passwordField, .box .ConfirmPassword .confrimPasswordfield {
+        width: 200px;
+    }
+
+    .box button {
+        width: 250px;
+        padding: 14px ;
+    }
+}
