@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--   css style start -->
-    <link rel="stylesheet" href="css/style.css" />
-     <!--   css style end -->
-    <!--  responsive style start -->
-    <link rel="stylesheet" href="css/responsive.css" />
-    <!--  responsive style end -->
-    <!--  icon style start -->
-    <link rel="stylesheet" href="css/all.min.css" />
-    <!--  icon style end -->
-    <link rel="icon" href=""/>
-    <title>Form</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--   css style start -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!--   css style end -->
+        <!--  responsive style start -->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!--  responsive style end -->
+        <!--  icon style start -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!--  icon style end -->
+        <link rel="icon" href=""/>
+        <title>Form</title>
+    </head>
 <body>
 
     <!-- form box start -->
@@ -83,8 +83,8 @@
 
             <div class="passwordField">
 
-                <input type="password" placeholder="Password">
-                <i class="fa-regular fa-eye password"></i>
+                <input id="passinput" type="password" placeholder="Password">
+                <i class="fa-regular fa-eye iconpassword"></i>
 
             </div>
 
@@ -100,8 +100,8 @@
 
             <div class="confrimPasswordfield">
 
-                <input type="password" placeholder="Confirm password">
-                <i class="fa-regular fa-eye password"></i>
+                <input id="cfinput" type="password" placeholder="Confirm password">
+                <i class="fa-regular fa-eye icon2password"></i>
 
             </div>
 
@@ -112,15 +112,84 @@
 
         <!-- button start  -->
         
-    <button>Sign up</button>
+        <button >Sign up</button>
     
 
-      <!-- button end  -->
+        <!-- button end  -->
+
+        <h3>Already have an account? <span class="signnin">Sign in</span> </h3>
+
+
+
+
+
+      
+
+
 
 
     </form>
 
+    <!-- login from -->
+
+     <form class="logobox">
+
+
+            <div class="logoIamge">
+
+                <img  src="images/Logo.png" alt="logoerr" />
+            </div>
+
+            <h2>Welcome Back!</h2>
+            <P>Let’s build something greate</P>
+
+            <!-- email field start-->
+            <div class="email">
+
+                <label>E-mail</label>
+
+                <div class="EmailName">
+
+                    <input type="email" placeholder="Email">
+                    <i class="fa-regular fa-envelope email"></i>
+
+                </div>
+
+            </div>
+
+            <!-- email field end-->
+
+                <!-- password field start-->
+            <div class="logopassword">
+
+                <label>Password</label>
+
+                <div class="passwordField">
+
+                    <input id="loginPassword" type="password" placeholder="Password">
+                    <i class="fa-regular fa-eye  iconLoginPass"></i>
+
+                </div>
+
+            </div>
+
+            <!-- password field end-->
+
+            <!-- button start  -->
+            
+            <button>Login</button>
+        
+
+            <!-- button end  -->
+
+
+
+     </form>
+        
+
     <!-- form box end -->
     
+
+    <script src="js/script.js"></script>
 </body>
 </html>
